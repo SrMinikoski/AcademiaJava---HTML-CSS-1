@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Style/base.css">
+     <link rel="stylesheet" href="../Style/contato.css">
+</head>
+<body>
+    <header>
+        <nav class="title">
+            <h1>Empresa Exemplo</h1>
+            <h2>Nosso compromisso é sempre fornecer os melhores exemplos e ideias!</h2>
+        </nav>
+        <nav class="options">
+            <a href="sobre.html">Sobre nós</a>
+            <a href="contato.html">Contato</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="produtos.html">Produtos</a>
+        </nav>
+    </header>
+    <main>
+       
+            <h1>
+                Entrando em contato conosco
+            </h1>
+
+        <article>
+            <h2>Digite sua mensagem</h2>
+            <h3>Não se preocupe, ninguém irá recebe-la!</h3>
+            <input type="text" placeholder="Nome:">
+            <input type="text" placeholder="Email:">
+            <textarea name="msg" id="msg" rows=""></textarea>
+            <button onclick= "alertar()">
+                Enviar
+            </button>
+        </article>
+        
+    </main>
+    <footer>
+        <span>Atividade desenvolvida durante os estudos da Academia Java - Desenvolvedor: João Lucas Andrade Minikoski
+            da Silva</span>
+    </footer>
+</body>
+</html>
+<script>
+function alertar(){
+    alert("Sua mensagem foi enviada!")
+}
+</script>
